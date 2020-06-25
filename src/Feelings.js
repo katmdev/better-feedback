@@ -24,9 +24,8 @@ class Feelings extends Component {
                         existingFeeling.push(obj)
                     } else {
                         groupedFeelings[obj.feeling] = [obj];
-                    return (<li key={obj.feeling} className="feeling-button"><button onClick={(e) => {this.props.handleModal(e); this.props.handleMoreInfo(e)}}>{obj.feeling}</button></li> )
+                    return (<li key={obj.feeling}><button className="feeling-button" onClick={(e) => {this.props.handleModal(e); this.props.handleMoreInfo(e, obj.feeling)}}>{obj.feeling}</button></li> )
                     }
-                    console.log(groupedFeelings);
                 })
                 }
             </div>

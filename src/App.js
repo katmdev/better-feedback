@@ -40,9 +40,12 @@ class App extends Component {
     e.preventDefault();
     this.setState({displayForm: true})
   }
-  handleMoreInfo = (e) => {
+  handleMoreInfo = (e, name) => {
     e.preventDefault();
-    this.setState({displayForm: false})
+    this.setState({displayForm: false});
+    console.log(name);
+    // filter state using name
+    // return info values in modal
   }
   
   render() {
@@ -51,7 +54,7 @@ class App extends Component {
         <header>
           <div className="wrapper head">
             <h1>Better Feedback</h1>
-            <button onClick={(e) => {this.handleModal(e); this.handleForm(e)}}>Add Feedback</button>
+            <button className="head__button" onClick={(e) => {this.handleModal(e); this.handleForm(e)}}>Add Feedback</button>
           </div>
         </header>
         <main>

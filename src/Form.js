@@ -8,7 +8,8 @@ class Form extends Component {
         userTeam: '',
         userFeeling: '',
         userInfo: '',
-        userPositive: ''
+        userPositive: '',
+        error: '🙃'
       }
   }
     handleInputChange = (e) => {
@@ -17,20 +18,39 @@ class Form extends Component {
         })
     }
     handleSubmit = (e) => {
-        this.props.handleModal(e);
         e.preventDefault();
-        const isPositive = this.state.userPositive === "true" ? true : false;
-        this.setState({
-            userPositive: isPositive,
-        })
-        const dbRef = firebase.database().ref();
-        dbRef.push(this.state);
-        this.setState({
-            userTeam: '',
-            userFeeling: '',
-            userInfo: '',
-            userPositive: ''
-        })
+        if (!this.state.userTeam) {
+            this.setState({
+                error: "Please complete team field"
+            })
+        } else if (!this.state.userFeeling) {
+            this.setState({
+                error: "Please complete feeling field"
+            })
+        } else if (!this.state.userInfo) {
+            this.setState({
+                error: "Please complete info field"
+            })
+        } else if (!this.state.userPositive) {
+            this.setState({
+                error: "Please indicate if your feeling is positive or negative"
+            })
+        } else {
+            this.props.handleModal(e);
+            const isPositive = this.state.userPositive === "true" ? true : false;
+            this.setState({
+                userPositive: isPositive,
+            })
+            const dbRef = firebase.database().ref();
+            dbRef.push(this.state);
+            this.setState({
+                userTeam: '',
+                userFeeling: '',
+                userInfo: '',
+                userPositive: '',
+                error: '🙃'
+            })
+        }
     }
   render() {
       const {userTeam, userFeeling, userInfo, userPositive} = this.state;
@@ -54,6 +74,7 @@ class Form extends Component {
                 <input type="text" name="userInfo" placeholder="Why" value={userInfo} onChange={this.handleInputChange}/>
                 <button onClick={this.handleSubmit}>SUBMIT</button>
             </form>
+            <p><span>{this.state.error}</span></p>
           </Fragment>
       )
    }

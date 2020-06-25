@@ -26,6 +26,9 @@ code {
 h1 {
   font-size: 5rem;
 }
+li {
+  list-style: none;
+}
 header, footer {
   background-color: black;
   color: #DFDFDF;
@@ -46,6 +49,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.head__button {
+  padding: 1rem;
 }
 .modal {
   position: fixed;
@@ -74,6 +80,15 @@ footer {
   right: 1rem;
   border: none;
   background: none;
+}
+.feeling-button {
+  width: 100%;
+  text-align: left;
+  padding: 2rem;
+  margin: 0.5rem;
+  background-color: black;
+  color: #DFDFDF;
+  border: 0;
 }
 .emoji {
   font-size: 4rem;
