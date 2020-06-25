@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
-import Form from './Form';
-import MoreInfo from './MoreInfo';
+import Form from './Form.js';
+import MoreInfo from './MoreInfo.js';
 
 class Modal extends Component {
 

@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
-import firebase from './firebase';
-import Feelings from './Feelings';
-import Modal from './Modal';
+import firebase from './firebase.js';
+import Feelings from './Feelings.js';
+import Modal from './Modal.js';
 
 class App extends Component {
   constructor() {

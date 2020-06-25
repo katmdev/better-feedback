@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import firebase from './firebase';
+import firebase from './firebase.js';
 
 class Form extends Component {
   constructor() {
