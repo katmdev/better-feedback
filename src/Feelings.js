@@ -17,7 +17,6 @@ class Feelings extends Component {
       return(
         <section className="feelings">
             <div className="wrapper">
-                <h2>HELLO FEELINGS</h2>
                 {this.props.feelings.map((obj) => {
                     const existingFeeling = groupedFeelings[obj.feeling];
                     if(existingFeeling){
