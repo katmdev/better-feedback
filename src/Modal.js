@@ -4,26 +4,13 @@ import MoreInfo from './MoreInfo';
 
 class Modal extends Component {
 
-
-//   componentDidMount() {
-//   }
-
-//   componentDidUpdate() {
-//   }
-
-//   componentWillUnmount() {
-//   }
-// function Display(props) {
-//     const isLoggedIn = props.isLoggedIn;
-//     if (isLoggedIn) {    return <UserGreeting />;  }  return <GuestGreeting />;}
   render() {
-      console.log(this.props)
       return(
         <Fragment>
-            <div>
-                <h2>HELLO I AM MODAL</h2>
-                <div>
-                {this.props.displayForm ? <Form/> : <MoreInfo/>}
+            <div className="modal">
+                <div className="modal__foreground">
+                    <button className="modal__close" onClick={this.props.handleModal}>CLOSE</button>
+                    {this.props.displayForm ? <Form handleModal={this.props.handleModal}/> : <MoreInfo/>}
                 </div>
             </div>
         </Fragment>

@@ -1,18 +1,6 @@
 import React, {Component, Fragment} from 'react';
 
 class MoreInfo extends Component {
-//   constructor() {
-//       super();
-//   }
-
-//   componentDidMount() {
-//   }
-
-//   componentDidUpdate() {
-//   }
-
-//   componentWillUnmount() {
-//   }
 
   render() {
       return(
