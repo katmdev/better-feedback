@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/katDevriezeProject5/static/css/main.c99a588d.chunk.css",
-    "main.js": "/katDevriezeProject5/static/js/main.76ffbef9.chunk.js",
-    "main.js.map": "/katDevriezeProject5/static/js/main.76ffbef9.chunk.js.map",
+    "main.js": "/katDevriezeProject5/static/js/main.c543896c.chunk.js",
+    "main.js.map": "/katDevriezeProject5/static/js/main.c543896c.chunk.js.map",
     "runtime-main.js": "/katDevriezeProject5/static/js/runtime-main.26e8e00f.js",
     "runtime-main.js.map": "/katDevriezeProject5/static/js/runtime-main.26e8e00f.js.map",
     "static/js/2.efcab77f.chunk.js": "/katDevriezeProject5/static/js/2.efcab77f.chunk.js",
     "static/js/2.efcab77f.chunk.js.map": "/katDevriezeProject5/static/js/2.efcab77f.chunk.js.map",
     "index.html": "/katDevriezeProject5/index.html",
-    "precache-manifest.9e67c6bf2c6fd98cc6ba88f2513e6fa5.js": "/katDevriezeProject5/precache-manifest.9e67c6bf2c6fd98cc6ba88f2513e6fa5.js",
+    "precache-manifest.40d4451dfe70fe1417026a0fb35c6774.js": "/katDevriezeProject5/precache-manifest.40d4451dfe70fe1417026a0fb35c6774.js",
     "service-worker.js": "/katDevriezeProject5/service-worker.js",
     "static/css/main.c99a588d.chunk.css.map": "/katDevriezeProject5/static/css/main.c99a588d.chunk.css.map",
     "static/js/2.efcab77f.chunk.js.LICENSE.txt": "/katDevriezeProject5/static/js/2.efcab77f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.26e8e00f.js",
     "static/js/2.efcab77f.chunk.js",
     "static/css/main.c99a588d.chunk.css",
-    "static/js/main.76ffbef9.chunk.js"
+    "static/js/main.c543896c.chunk.js"
   ]
 }
