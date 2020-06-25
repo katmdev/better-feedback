@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/katDeVriezeProject5/static/css/main.2123d710.chunk.css",
-    "main.js": "/katDeVriezeProject5/static/js/main.a06a53d1.chunk.js",
-    "main.js.map": "/katDeVriezeProject5/static/js/main.a06a53d1.chunk.js.map",
+    "main.js": "/katDeVriezeProject5/static/js/main.03bc60b4.chunk.js",
+    "main.js.map": "/katDeVriezeProject5/static/js/main.03bc60b4.chunk.js.map",
     "runtime-main.js": "/katDeVriezeProject5/static/js/runtime-main.f8e74c5f.js",
     "runtime-main.js.map": "/katDeVriezeProject5/static/js/runtime-main.f8e74c5f.js.map",
     "static/js/2.d2b49b27.chunk.js": "/katDeVriezeProject5/static/js/2.d2b49b27.chunk.js",
     "static/js/2.d2b49b27.chunk.js.map": "/katDeVriezeProject5/static/js/2.d2b49b27.chunk.js.map",
     "index.html": "/katDeVriezeProject5/index.html",
-    "precache-manifest.f44a8032e2281dacc627f0cdc9c8b0e9.js": "/katDeVriezeProject5/precache-manifest.f44a8032e2281dacc627f0cdc9c8b0e9.js",
+    "precache-manifest.3522061c413632124f37ec759f952793.js": "/katDeVriezeProject5/precache-manifest.3522061c413632124f37ec759f952793.js",
     "service-worker.js": "/katDeVriezeProject5/service-worker.js",
     "static/css/main.2123d710.chunk.css.map": "/katDeVriezeProject5/static/css/main.2123d710.chunk.css.map",
     "static/js/2.d2b49b27.chunk.js.LICENSE.txt": "/katDeVriezeProject5/static/js/2.d2b49b27.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f8e74c5f.js",
     "static/js/2.d2b49b27.chunk.js",
     "static/css/main.2123d710.chunk.css",
-    "static/js/main.a06a53d1.chunk.js"
+    "static/js/main.03bc60b4.chunk.js"
   ]
 }
