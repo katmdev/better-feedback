@@ -66,7 +66,7 @@ footer {
 }
 
 .modal__foreground {
-  max-width: 500px;
+  max-width: 600px;
   background-color: #DFDFDF;
   border-radius: 2rem;
   padding: 2rem;
@@ -104,4 +104,13 @@ fieldset {
 }
 [type="radio"]:checked + label {
   background-color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+form + p {
+  text-align: center;
 }
